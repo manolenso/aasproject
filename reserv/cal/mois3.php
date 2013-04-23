@@ -29,7 +29,7 @@ if (empty($langue)){
 if (empty($an) || empty($ID_location)){
     echo '<link REL="StyleSheet" TYPE="text/css" HREF="../style.css">';
 	echo '<div class="texte_erreur"> Probleme : il faut appeler une location et une année<br/><br/><br/>';
-	echo 'Merci de pr?venir l\'administrateur</div>';
+	echo 'Merci de prévenir l\'administrateur</div>';
 exit;
 }
 

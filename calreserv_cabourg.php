@@ -13,10 +13,7 @@
   <a class="btn btn-large btn-primary" href="index.html"><i class="icon-home icon-white"></i> Accueil   </a>
 </p>
             <div class="calend">
-                 <iframe src="reserv/cal/index.php?ID_location=3" height="715px" width="815px"></iframe>
-            </div>
-            <div>
-                 <iframe  name="calendrier" SRC="reserv/cal/3mois.php?ID_location=3" scrolling="no" height="520" width="182" FRAMEBORDER="no"></iframe>
+                 <iframe src="reserv/cal/index.php?ID_location=3" height="750px" width="850px"></iframe>
             </div>
             <section class="row-fluid">
               <div class="span4 visible-desktop">Target Desktop.</div>

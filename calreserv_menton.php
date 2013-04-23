@@ -16,7 +16,7 @@
   </p>
 
             <div class="calend">
-                <iframe src="reserv/cal/index.php?ID_location=1" height="715px" width="815px"></iframe>
+                <iframe src="reserv/cal/index.php?ID_location=1" height="750px" width="850px"></iframe>
             </div>
 
               <div class="span4 visible-desktop">Target Desktop.</div>
