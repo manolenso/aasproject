@@ -82,7 +82,7 @@
             </section>
 
             <footer>
-                <p>&copy; ASS Sirlo 2012</p>
+                <p>&copy; AAS Sirlo 2013</p>
             </footer>
 
       </div> <!-- /container -->

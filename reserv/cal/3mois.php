@@ -1,6 +1,6 @@
 
 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Sliding Panels Sample</title>
 <link href="SlidingPanelsSample_fichiers/SprySlidingPanels.css" rel="stylesheet" type="text/css">
@@ -13,18 +13,18 @@ hr, .clearAll {
 	clear: both;
 }
 
-
 .SlidingPanels {
-	width: 188px;
-	height: 375px;
-	margin-top: -15px;
-	margin-bottom: 5px;
+  width: 188px;
+  height: 375px;
+  margin-top: -15px;
+  margin-bottom: 5px;
 
 }
 .SlidingPanelsContent {
-	width: 188px;
-	height: 375px;
-	margin-bottom: 5px;
+  width: 188px;
+  height: 375px;
+  margin-bottom: 5px;
+
 }
 
 .p1 {
@@ -62,14 +62,14 @@ hr, .clearAll {
 	<div style="left: -1200px; top: 0px;" class="SlidingPanelsContentGroup">
 		<div id="ex2_p1" class="SlidingPanelsContent p1"><iframe name="calendrier" SRC="mois1.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
 		<div id="ex2_p2" class="SlidingPanelsContent p2"><iframe name="calendrier" SRC="mois2.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
-		<div id="ex2_p3" class="SlidingPanelsContent p3"><iframe name="calendrier" SRC="mois3.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
+		<div id="ex2_p3" class="SlidingPanelsContent p3"><iframe name="calendrier" SRC="mois3.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="250" FRAMEBORDER="no"></iframe></div>
 		<div id="ex2_p4" class="SlidingPanelsContent p4"><iframe name="calendrier" SRC="mois4.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
 
 
   </div>
 </div>
 <div id="link">
-&nbsp;&nbsp;<a href="#" title="Back" onclick="sp2.showPreviousPanel(); return false;">< Pr?c.</a>
+&nbsp;&nbsp;<a href="#" title="Back" onclick="sp2.showPreviousPanel(); return false;">< Préc.</a>
 <a href="#" title="Home" onclick="sp2.showFirstPanel(); return false;">&nbsp; 1 &nbsp;</a>
 
 <a href="#" title="Next" onclick="sp2.showNextPanel(); return false;">Suiv. &gt; </a>

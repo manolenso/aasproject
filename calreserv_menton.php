@@ -18,14 +18,14 @@
             <div class="calend">
                 <iframe src="reserv/cal/index.php?ID_location=1" height="750px" width="850px"></iframe>
             </div>
-
+            <section class="row-fluid">
               <div class="span4 visible-desktop">Target Desktop.</div>
               <div class="span4 visible-tablet">Target Tablet.</div>
               <div class="span4 visible-phone">Target Phone.</div>
             </section>
 
             <footer>
-                <p>&copy; ASS Sirlo 2012</p>
+                <p>&copy; AAS Sirlo 2013</p>
             </footer>
   </div><!-- container -->
 </body>
