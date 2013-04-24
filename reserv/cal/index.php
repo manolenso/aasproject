@@ -12,6 +12,8 @@ include ("../inc/conec.php");
 include ("calendrier.inc.php");
 include ("string.inc.php");
 
+header('Content-Type: text/html; charset=UTF-8');
+
 	// mode d'affiche du calendrier
 	// vous pouvez modifier l'affichage en commentant l'un des deux lignes "$mois=..."
 
