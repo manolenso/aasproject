@@ -60,10 +60,10 @@ hr, .clearAll {
 </head><body>
 <div style="overflow: hidden;" id="example2" class="SlidingPanels" tabindex="0">
 	<div style="left: -1200px; top: 0px;" class="SlidingPanelsContentGroup">
-		<div id="ex2_p1" class="SlidingPanelsContent p1"><iframe name="calendrier" SRC="mois1.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
-		<div id="ex2_p2" class="SlidingPanelsContent p2"><iframe name="calendrier" SRC="mois2.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
-		<div id="ex2_p3" class="SlidingPanelsContent p3"><iframe name="calendrier" SRC="mois3.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="250" FRAMEBORDER="no"></iframe></div>
-		<div id="ex2_p4" class="SlidingPanelsContent p4"><iframe name="calendrier" SRC="mois4.php?ID_location=3&&an=2011?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
+		<div id="ex2_p1" class="SlidingPanelsContent p1"><iframe name="calendrier" SRC="mois1.php?ID_location=2&&an=2013?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
+		<div id="ex2_p2" class="SlidingPanelsContent p2"><iframe name="calendrier" SRC="mois2.php?ID_location=2&&an=2013?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
+		<div id="ex2_p3" class="SlidingPanelsContent p3"><iframe name="calendrier" SRC="mois3.php?ID_location=2&&an=2013?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
+		<div id="ex2_p4" class="SlidingPanelsContent p4"><iframe name="calendrier" SRC="mois4.php?ID_location=2&&an=2013?TB_iframe=" scrolling="no" height="490" width="188" FRAMEBORDER="no"></iframe></div>
 
 
   </div>

@@ -1,35 +1,35 @@
-<?php 
+<?php
 // -----------------------------------------
 // Source  :	http://cogites.com
 // Script  :	E RESERV
 // Version :	PLUS 1.01
-// revente et redistribution interdites 
+// revente et redistribution interdites
 // Vous devez laisser le copyright.
-// ----------------------------------------- 
+// -----------------------------------------
 session_start() ;
 
 
 include ("../inc/conec.php");
-// si le formulaire a été posté on prend les variables demandées
+// si le formulaire a ?t? post? on prend les variables demand?es
 if ($_POST) {
     $an = intval($_POST['an']);
     $ID_location = intval($_POST['ID_location']);
 	$langue = @$_POST['langue'];
- 
-} 
-// si le formulaire n'a pas été posté on prend les mois et année en cours
+
+}
+// si le formulaire n'a pas ?t? post? on prend les mois et ann?e en cours
 else {
     $an = intval($_GET['an']);
     $ID_location = intval($_GET['ID_location']);
 	$langue = @$_GET['langue'];
-} 
+}
 if (empty($langue)){
 	$langue='fr';
 }
 if (empty($an) || empty($ID_location)){
     echo '<link REL="StyleSheet" TYPE="text/css" HREF="../style.css">';
-	echo '<div class="texte_erreur"> Probleme : il faut appeler une location et une année<br/><br/><br/>';
-	echo 'Merci de prévenir l\'administrateur</div>';
+	echo '<div class="texte_erreur"> Probleme : il faut appeler une location et une annÃ©e<br/><br/><br/>';
+	echo 'Merci de pr?venir l\'administrateur</div>';
 exit;
 }
 
@@ -44,7 +44,7 @@ $nom_location = mysql_result($res_req, 0);
 <?php
 if ($langue == 'fr'){
 	$titre = "Calendrier des r&eacute;servations du ";
-} 
+}
 if ($langue == 'ang'){
 	$titre = "Rental  Calendar : ";
 }
@@ -55,7 +55,7 @@ if ($langue == 'it'){
 	$titre = "Calendario Prenotazioni : ";
 }
 if ($langue == 'all'){
-	$titre = "Reservierungen Kalender für die Lage : ";
+	$titre = "Reservierungen Kalender f?r die Lage : ";
 }
 if ($langue == 'esp'){
 	$titre = "Calendario de reservas : ";
@@ -76,12 +76,12 @@ body {
 
 .Submit {
 	font-size: xx-small;
-	
+
 }
 #servselect {
 	font-size: xx-small;
-	width: 90px;	
-	
+	width: 90px;
+
 }
 
 
@@ -94,9 +94,9 @@ body {
 <body>
 
 <table border="0" align="left">
-  <tr valign="top"> 
-    <td><?php 
-	// on commence par le mois de janvier 
+  <tr valign="top">
+    <td><?php
+	// on commence par le mois de janvier
 	$mois = '1';
 	include ("calendrier.inc.php");
 	include ("string.inc.php");
@@ -111,7 +111,7 @@ body {
 	echo showCalendar("$an-$mois");
 	?></td>
   </tr>
-  <tr valign="top"> 
+  <tr valign="top">
     <td><?php
 	// puis le mois de f&eacute;vrier = janvier +1 et ainsi de suite
 	$mois = $mois + 1;
@@ -124,7 +124,7 @@ body {
         <?php
 	if (@$_SESSION["login_admin"] == true){
 		$an = $an-1;
-		echo "<div align=\"left\">&nbsp;<a href=\"index.php?an=$an&&ID_location=$ID_location\">&lt;&lt;</a>&nbsp"; 
+		echo "<div align=\"left\">&nbsp;<a href=\"index.php?an=$an&&ID_location=$ID_location\">&lt;&lt;</a>&nbsp";
 	}
 	?>
         <div align="left">
@@ -135,10 +135,10 @@ body {
             <option value="<?php echo $today + 2 ?>"><?php echo $today + 2 ?></option>
             <option value="<?php echo $today + 3 ?>"><?php echo $today + 3 ?></option>
           </select>
-      
+
           <input type="hidden" name="ID_location" value="<?php echo "$ID_location" ;?>">&nbsp;
-          <input border=0 src="http://www.location-chalet-villard-reculas.com/e-reserv/img/CaseCocher.gif" type="image" value="Voir">
-          </div> 
+          <input border=0 src="CaseCocher.gif" type="image" value="Voir">
+          </div>
         </div>
     </form></td>
   </tr>

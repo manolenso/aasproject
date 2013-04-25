@@ -137,7 +137,7 @@ body {
           </select>
         &nbsp;
           <input type="hidden" name="ID_location" value="<?php echo "$ID_location" ;?>">
-          <input border=0 src="images/CaseCocher.gif" type="image" value="Voir">
+          <input border=0 src="CaseCocher.gif" type="image" value="Voir">
           </div>
         </div>
     </form></td>
